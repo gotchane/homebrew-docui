@@ -13,7 +13,7 @@ class Docui < Formula
     system 'go', 'install'
     bin.install 'docui'
     cd docui_path do
-      system "go", "build"
+      system "go", "install"
       bin.install "docui"
     end
   end

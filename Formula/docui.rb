@@ -6,7 +6,7 @@ class Docui < Formula
 
   def install
     ENV['GOPATH'] = buildpath
-    system 'go', 'build', '-o', 'docui'
+    system 'go', 'install'
     bin.install 'docui'
   end
 

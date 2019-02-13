@@ -9,7 +9,7 @@ class Docui < Formula
     print buildpath
     ENV['GOPATH'] = buildpath
     docui_path = buildpath/"src/github.com/skanehira/docui"
-    #docui_path.install buildpath.children
+    docui_path.install buildpath.children
     cd docui_path do
       system "go", "build", "main.go"
       bin.install "docui"

@@ -11,8 +11,9 @@ class Docui < Formula
     docui_path = buildpath/"src/github.com/skanehira/docui"
     docui_path.install buildpath.children
     cd docui_path do
-      system "go", "install"
+      system "make", "build"
       bin.install "docui"
+      #prefix.install_metafiles
     end
   end
 

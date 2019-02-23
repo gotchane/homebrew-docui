@@ -4,7 +4,7 @@ class Docui < Formula
   homepage "https://github.com/skanehira/docui"
   url "https://github.com/gotchane/docui/releases/download/1.0.3/docui_1.0.3_Darwin_x86_64.tar.gz"
   version "1.0.3"
-  sha256 "d179ac5cd641d9545fda90226421a994db468414f5a8ec4f74ab21ef4f930d36"
+  sha256 "a882c05a2627ba9104944dc18cb6e31241e076cdf217d2c885a2f1578570ab2e"
   
   depends_on "go"
 
